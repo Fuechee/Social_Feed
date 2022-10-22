@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
 import AddPost from './Components/CreatePost/CreatePost';
+import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
+import NavBar from './Components/NavBar/NavBar';
 
 function App() {
 
@@ -13,6 +14,9 @@ function App() {
 
   return (
     <div>
+      <div>
+        <NavBar/>
+      </div>
       <div>
         <AddPost addNewPostProperty={addNewPost}/>
       </div>
