@@ -4,7 +4,7 @@ import AddPost from './Components/CreatePost/CreatePost';
 
 function App() {
 
-  const [posts, setPosts] = useState()
+  const [posts, setPosts] = useState([])
 
   function addNewPost(post) {
     let tempPosts = [...posts, post];
@@ -12,9 +12,9 @@ function App() {
   }
 
   return (
-    <div className='container-fluid'>
+    <div>
       <div>
-        <AddPost addNewPosts={addNewPost}/>
+        <AddPost addNewPostProperty={addNewPost}/>
       </div>
       <div>
         <DisplayPosts parentPosts={posts}/>

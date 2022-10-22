@@ -2,12 +2,8 @@
 const Post = (props) => {
     return ( 
         <div>
-            <div>
-                <h2>{props.postData.name}</h2>
-            </div>
-            <div>
-                <div>{props.postData.post}</div>
-            </div>
+           <h2>{props.name}</h2>
+           <p>{props.post}</p>
         </div>
      );
 }
