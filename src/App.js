@@ -14,10 +14,10 @@ function App() {
   return (
     <div className='container-fluid'>
       <div>
-        <DisplayPosts parentPosts={posts}/>
+        <AddPostForm addNewPosts={addNewPost}/>
       </div>
       <div>
-        <AddPostForm addNewPosts={addNewPost}/>
+        <DisplayPosts parentPosts={posts}/>
       </div>
     </div>
   );
