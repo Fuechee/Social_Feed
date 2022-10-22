@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const AddPostForm = (props) => {
+const AddPost = (props) => {
 
     const [name, setName] = useState('');
     const [post, setPost] = useState('');
@@ -29,5 +29,5 @@ const AddPostForm = (props) => {
      );
 }
  
-export default AddPostForm;
+export default AddPost;
 

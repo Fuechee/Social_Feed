@@ -1,8 +1,8 @@
 const DisplayPosts = (props) => {
     return ( 
-        <form>
+        <div>
             
-        </form>
+        </div>
      );
 }
  

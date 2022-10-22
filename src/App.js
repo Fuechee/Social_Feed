@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
-import AddPostForm from './Components/CreatePost/CreatePost';
+import AddPost from './Components/CreatePost/CreatePost';
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className='container-fluid'>
       <div>
-        <AddPostForm addNewPosts={addNewPost}/>
+        <AddPost addNewPosts={addNewPost}/>
       </div>
       <div>
         <DisplayPosts parentPosts={posts}/>
