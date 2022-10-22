@@ -1,4 +1,5 @@
 import Post from "../Post/Post";
+import './DisplayPosts.css';
 
 const DisplayPosts = (props) => {
     return ( 

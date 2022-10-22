@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.body{
+    padding-top: 17px;
+    background-color: #E2F2EE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 27px;
+
+}

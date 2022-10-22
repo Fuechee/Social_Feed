@@ -1,0 +1,45 @@
+.form{
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 25px;
+    height: 230px;
+    width: 1049px;
+    box-shadow: 5px 5px 10px;
+}
+.entry{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 19px;
+    padding-top: 22px;
+}
+.input-name{
+    width: 699px;
+    height: 49px;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-size: 25px;
+    border-width: thin;
+    padding: 5px 5px;
+}
+.input-post{
+    width: 699px;
+    height: 97px;
+    margin-left: 41px;
+    border-radius: 10px;
+    margin-top: 11px;
+    border-width: thin;
+    padding: 5px 5px;
+}
+.create-button{
+    margin-left: 35px;
+    width: 148px;
+    height: 37px;
+    border-radius: 20px;
+    background-color: #1867AB;
+    font-size: 20px;
+    font-family: Segoe UI-ROUNDED;
+    color: white;
+    border: none;
+}

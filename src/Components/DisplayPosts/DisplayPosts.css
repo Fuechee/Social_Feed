@@ -1,0 +1,10 @@
+.displayPost{
+    width: 1049px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 22px;
+    border-color: #707070;
+}
