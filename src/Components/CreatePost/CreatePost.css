@@ -32,6 +32,14 @@
     border-width: thin;
     padding: 5px 5px;
 }
+.bottom-half{
+    display: flex;
+    align-items: center;
+}
+.bottom-right{
+    display: flex;
+    align-items: flex-end;
+}
 .create-button{
     margin-left: 35px;
     width: 148px;

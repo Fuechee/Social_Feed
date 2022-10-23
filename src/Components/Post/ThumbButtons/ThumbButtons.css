@@ -1,0 +1,21 @@
+.inactive{
+    
+    margin-right: 10px;
+}
+.thumb-up{
+    
+    margin-right: 10px;
+}
+.thumb-down{
+    margin-right: 10px;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 62px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.test{
+    
+}

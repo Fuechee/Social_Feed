@@ -1,4 +1,5 @@
 import ThumbButtons from "./ThumbButtons/ThumbButtons";
+import './Post.css';
 
 const Post = (props) => {
     return ( 

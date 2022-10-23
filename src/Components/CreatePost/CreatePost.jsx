@@ -18,18 +18,20 @@ const AddPost = (props) => {
     }
 
     return ( 
-        <form className="form" onSubmit={handleSubmit} >
-            <div className="entry">
+        <form class = "form"id="form" onSubmit={handleSubmit} >
+            <div class="input">
                 <div>
                     <label>Name</label>
-                    <input className= "input-name" type='text' value={name} onChange={(event)=> setName(event.target.value)}/>
+                    <input class = "input-name" id ="name"type='text' value={name} onChange={(event)=> setName(event.target.value)}/>
                 </div>
-                    <div>
-                        <label className='post'>Post</label>
-                        <input className="input-post" type="text" value={post} onChange={(event)=> setPost(event.target.value)} />
-                        <button className="create-button" type="submit">Create</button>          
+                <div class = "bottom-half">
+                    <label>Post</label>
+                    <div class="bottom-right">
+                        <textarea class="input-post" id = 'post'type="text" value={post} onChange={(event)=> setPost(event.target.value)} />
+                        <button class="create-button" type="submit">Create</button>
                     </div>
-            </div>
+                    </div>    
+            </div> 
         </form>
      );
 }
